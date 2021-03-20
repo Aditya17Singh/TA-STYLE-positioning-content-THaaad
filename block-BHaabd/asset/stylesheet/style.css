@@ -51,6 +51,7 @@ table {
     box-sizing: border-box;
 }
 body{
+    font-size: 16px;
     padding-bottom: 30px;
     line-height: 1.5;
     background-color: #EFEFEF;
@@ -62,8 +63,7 @@ body{
 .clearfix::after{
     clear:both
 }
-article{
-    width: 32%;
+.left{
     float: left;
 }
 h1{
@@ -73,41 +73,42 @@ h1{
 }
 .container1 p{
     color: #444444;
-    font-size: 20px;
-    font-size: 15px;
+    font-size: 19px;
     font-family: sans-serif;
-    padding: 40px 30px;
 }
 h2{
+    margin-bottom: 10px;
     font-family: sans-serif;
     font-size: 25px; 
 }
 .container{
-    height: 550px;
     background-color: white;
-    width: 60%;
+    max-width: 1000px;
     margin: 0 auto;
+    padding: 32px;
 }
 .container2 img{
-    font-family: sans-serif;
-    width: 100%;
     font-size: 15px;  
 }
 .container3{
-    margin-top: 16px;
+    width: 25%;
     font-size: 18px;
-    width: 30%;
-    margin-left: 8px;
-    padding: 30px 30px;
 }
 .container1{
-    width: 30%;
+    width: 25%;
 }
 .container2 p{
     color: #444444;
-    font-size: 15px;
-    width: 0px 30px;
+    font-size: 15px
 }
 .container3 p{
     color: #444444;
+}
+.container2{
+    padding-left: 19px;
+    width: 50%;
+}
+.paragraph{
+    margin-top: 5px;
+    padding: 10px 10px;
 }
